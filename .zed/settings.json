@@ -1,0 +1,26 @@
+{
+  "languages": {
+    "Rust": {
+      "format_on_save": "on",
+      "enable_language_server": true
+    }
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy"
+        },
+        "inlayHints": {
+          "maxLength": 20,
+          "typeHints": {
+            "enable": true
+          },
+          "parameterHints": {
+            "enable": true
+          }
+        }
+      }
+    }
+  },
+}
